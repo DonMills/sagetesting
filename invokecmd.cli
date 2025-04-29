@@ -1,0 +1,1 @@
+aws sagemaker-runtime invoke-endpoint  --content-type=application/json   --endpoint-name {your endpoint name} --body fileb://testprompt2.prompt outputfile.txt
