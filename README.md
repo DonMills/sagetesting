@@ -6,5 +6,5 @@ Test deployment of the open Cisco LLM model https://huggingface.co/fdtn-ai/Found
 3. configure your boto3/AWS CLI environment with keys/secret keys to an IAM principal with enough priviledges to create
 4. Run the python script
 5. Wait about 5-10 minutes
-6. play around/test with the invoke CLI command that runs AWS sagemaker invoke commands in CLI to feed in the testprpmpt and return the output.txt
+6. play around/test with the invoke CLI command that runs AWS sagemaker invoke commands in CLI to feed in the testprompt and return the output.txt
 7. Enjoy!
