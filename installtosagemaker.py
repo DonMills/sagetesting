@@ -32,7 +32,3 @@ except ValueError:
                             container_startup_health_check_timeout=300,
                                        )
 
-                    # send request
-                   # predictor.predict({
-                    #            "inputs": "My name is Julien and I like to",
-                     #           })
