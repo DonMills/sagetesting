@@ -27,6 +27,7 @@ except ValueError:
                     # deploy model to SageMaker Inference
             predictor = huggingface_model.deploy(
                             initial_instance_count=1,
+                            # change instance to ml.g5.xlarge or ml.g4.xlarge for free tier!!!
                             instance_type="ml.g5.2xlarge",
                             container_startup_health_check_timeout=300,
                                        )
